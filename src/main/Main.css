@@ -253,6 +253,7 @@
     position: absolute;
     transition: .3s linear;
     margin-top: 300px;
+    cursor: pointer;
 }
 
 .product_card:hover button {
