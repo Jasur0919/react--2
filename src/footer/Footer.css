@@ -1,0 +1,75 @@
+footer {
+    background: black;
+    color: white;
+    margin-top: 100px;
+}
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+
+}
+.footer-text {
+    margin-top: 80px ;
+    margin-bottom: 76px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: start;
+    h4 {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+      
+    }
+    span {
+        margin-top: -20px;
+    }
+    .footer-input {
+        width: Fixed (217px)px;
+        height: Hug (48px)px;
+        padding: 12px 12px 12px 16px;
+        gap: 32px;
+        border-radius: 4px 0px 0px 0px;
+        border: 1px solid white;
+        opacity: 0px;
+        display: flex;
+        align-items: center;
+        input {
+            border: none;
+            outline: none;
+            background: black;
+            color: white;
+        }
+
+    }
+  .footer-sosialMedia {
+    display: flex;
+    gap: 26px;
+  }
+
+}
+
+.footer-qrcode {
+    display: flex;
+    gap: 10px;
+    .footer-AppGoogle {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+}
+
+.footer-bot {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 24px;
+    color: #616060;
+    padding-bottom: 24px;
+
+}
